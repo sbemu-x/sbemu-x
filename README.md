@@ -14,12 +14,10 @@ eventually.
 
 For now, this fork provides additional support:
 
+* This updated README ([upstream PR#47](https://github.com/crazii/SBEMU/pull/47))
 * Nicer text-mode user interface
 * Additional sound card support
-  * CMI 8338 / 8738 (untested)
-* Toggleable debug output on serial port (/DBG0, /DBG1, /DBG2) ([upstream PR#44](https://github.com/crazii/SBEMU/pull/44))
-* SB Direct Mode improvements ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
-* Time constant fixup moved behind /FIXTC flag ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
+  * CMI 8338 / 8738 (untested) ([upstream PR#48](https://github.com/crazii/SBEMU/pull/48))
 
 Things that were in this fork and are now merged upstream:
 
@@ -28,6 +26,9 @@ Things that were in this fork and are now merged upstream:
   * SIS 7012 ([upstream PR#29](https://github.com/crazii/SBEMU/pull/29))
 * CD-Audio (via 4-pin audio header) unmute/mixer support ([upstream PR#36](https://github.com/crazii/SBEMU/pull/36))
 * Fix audio routing on AC97 (ICH5) with AD1980 (FSC-E600 D1534 with i865G) ([upstream PR#35](https://github.com/crazii/SBEMU/pull/35))
+* Toggleable debug output on serial port (/DBG0, /DBG1, /DBG2) ([upstream PR#44](https://github.com/crazii/SBEMU/pull/44))
+* SB Direct Mode improvements ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
+* Time constant fixup moved behind /FIXTC flag ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
 
 ## Supported sound cards
 
