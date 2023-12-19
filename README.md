@@ -15,7 +15,7 @@ eventually.
 For now, this fork provides additional support:
 
 * This updated README ([upstream PR#47](https://github.com/crazii/SBEMU/pull/47))
-* Nicer text-mode user interface
+* Nicer text-mode user interface ([upstream PR#50](https://github.com/crazii/SBEMU/pull/50))
 * Additional sound card support
   * CMI 8338 / 8738 (untested) ([upstream PR#48](https://github.com/crazii/SBEMU/pull/48))
 
