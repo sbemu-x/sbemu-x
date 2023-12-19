@@ -3,21 +3,9 @@
 Emulate Sound Blaster and OPL3 in pure DOS using modern
 PCI-based (onboard and add-in card) sound cards.
 
+**The changes in this project have been merged upstream. It's recommended that you just use [SBEMU](https://github.com/crazii/SBEMU).**
+
 ## Changes compared to sbemu
-
-This is obviously a friendly fork of [SBEMU](https://github.com/crazii/SBEMU)
-to allow for cross-compilation, additional driver support,
-continuous integration, bug fixes, etc..
-
-Ideally, we'd like to get these changes integrated upstream
-eventually.
-
-For now, this fork provides additional support:
-
-* This updated README ([upstream PR#47](https://github.com/crazii/SBEMU/pull/47))
-* Nicer text-mode user interface ([upstream PR#50](https://github.com/crazii/SBEMU/pull/50))
-* Additional sound card support
-  * CMI 8338 / 8738 (untested) ([upstream PR#48](https://github.com/crazii/SBEMU/pull/48))
 
 Things that were in this fork and are now merged upstream:
 
@@ -29,6 +17,10 @@ Things that were in this fork and are now merged upstream:
 * Toggleable debug output on serial port (/DBG0, /DBG1, /DBG2) ([upstream PR#44](https://github.com/crazii/SBEMU/pull/44))
 * SB Direct Mode improvements ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
 * Time constant fixup moved behind /FIXTC flag ([PR#10](https://github.com/sbemu-x/sbemu-x/pull/10))
+* This updated README ([upstream PR#47](https://github.com/crazii/SBEMU/pull/47))
+* Nicer text-mode user interface ([upstream PR#50](https://github.com/crazii/SBEMU/pull/50))
+* Additional sound card support
+  * CMI 8338 / 8738 (untested) ([upstream PR#48](https://github.com/crazii/SBEMU/pull/48))
 
 ## Supported sound cards
 
